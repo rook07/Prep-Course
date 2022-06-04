@@ -10,6 +10,7 @@ function obtenerMayor(x, y) {
   } else {
     return y;
   }
+
 }
 
 function mayoriaDeEdad(edad) {
@@ -137,7 +138,7 @@ function operadoresLogicos(num1, num2, num3) {
 
 
 function esPrimo(numero) {
-  // Devuelve "true" si "numero" es primo
+  // Devuoelve "true" si "numero" es prim
   // De lo contrario devuelve "falso"
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
