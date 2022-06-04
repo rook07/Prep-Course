@@ -62,7 +62,9 @@ function map(array, cb) {
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
-  //Tu código:
+  //Tu código://filter devuelve un nuevo array de igual o menor tamaño que el anterior(sin modificarlo)
+  // llamo x al elemento utilizo una arrow funtion y declaro que va a hacer. en este caso x en su indice 0 tiene
+  //que ser igual a "a". al declarar la variable al principio ya estoy asignandole los uuevos elementosdel array.
   let sinA = array.filter(x => x[0] === "a");
   return sinA;
 }
